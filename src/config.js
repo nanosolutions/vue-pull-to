@@ -1,20 +1,20 @@
 const TOP_DEFAULT_CONFIG = {
-  pullText: '下拉刷新',
-  triggerText: '释放更新',
-  loadingText: '加载中...',
-  doneText: '加载完成',
-  failText: '加载失败',
+  pullText: 'drawdown',
+  triggerText: 'release update',
+  loadingText: 'Loading...',
+  doneText: 'Load completed',
+  failText: 'Load failed',
   loadedStayTime: 400,
   stayDistance: 50,
   triggerDistance: 70
 };
 
 const BOTTOM_DEFAULT_CONFIG = {
-  pullText: '上拉加载',
-  triggerText: '释放更新',
-  loadingText: '加载中...',
-  doneText: '加载完成',
-  failText: '加载失败',
+  pullText: 'pull up loading',
+  triggerText: 'release update',
+  loadingText: 'Loading...',
+  doneText: 'Load completed',
+  failText: 'Load failed',
   loadedStayTime: 400,
   stayDistance: 50,
   triggerDistance: 70
