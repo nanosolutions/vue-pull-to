@@ -189,7 +189,7 @@ var Component = __webpack_require__(44)(
   /* template */
   __webpack_require__(45),
   /* scopeId */
-  "data-v-12abd9fb",
+  "data-v-5669c6c0",
   /* cssModules */
   null
 )
@@ -208,22 +208,22 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var TOP_DEFAULT_CONFIG = {
-  pullText: '下拉刷新',
-  triggerText: '释放更新',
-  loadingText: '加载中...',
-  doneText: '加载完成',
-  failText: '加载失败',
+  pullText: 'drawdown',
+  triggerText: 'release update',
+  loadingText: 'Loading...',
+  doneText: 'Load completed',
+  failText: 'Load failed',
   loadedStayTime: 400,
   stayDistance: 50,
   triggerDistance: 70
 };
 
 var BOTTOM_DEFAULT_CONFIG = {
-  pullText: '上拉加载',
-  triggerText: '释放更新',
-  loadingText: '加载中...',
-  doneText: '加载完成',
-  failText: '加载失败',
+  pullText: 'pull up loading',
+  triggerText: 'release update',
+  loadingText: 'Loading...',
+  doneText: 'Load completed',
+  failText: 'Load failed',
   loadedStayTime: 400,
   stayDistance: 50,
   triggerDistance: 70
@@ -1046,7 +1046,7 @@ exports = module.exports = __webpack_require__(43)(undefined);
 
 
 // module
-exports.push([module.i, ".vue-pull-to-wrapper[data-v-12abd9fb]{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;height:100%}.scroll-container[data-v-12abd9fb]{-webkit-box-flex:1;-webkit-flex:1;flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch}.vue-pull-to-wrapper .action-block[data-v-12abd9fb]{position:relative;width:100%}.default-text[data-v-12abd9fb]{height:100%;line-height:50px;text-align:center}", ""]);
+exports.push([module.i, ".vue-pull-to-wrapper[data-v-5669c6c0]{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;height:100%}.scroll-container[data-v-5669c6c0]{-webkit-box-flex:1;-webkit-flex:1;flex:1;-webkit-overflow-scrolling:touch}.vue-pull-to-wrapper .action-block[data-v-5669c6c0]{position:relative;width:100%}.default-text[data-v-5669c6c0]{height:100%;line-height:50px;text-align:center}", ""]);
 
 // exports
 
@@ -1239,7 +1239,7 @@ var content = __webpack_require__(42);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(47)("0cd817f2", content, true);
+var update = __webpack_require__(47)("8648f014", content, true);
 
 /***/ }),
 /* 47 */
