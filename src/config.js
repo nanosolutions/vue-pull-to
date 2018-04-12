@@ -1,6 +1,6 @@
 const TOP_DEFAULT_CONFIG = {
-  pullText: 'drawdown',
-  triggerText: 'release update',
+  pullText: 'Pull down to refresh',
+  triggerText: 'Release to update',
   loadingText: 'Loading...',
   doneText: 'Load completed',
   failText: 'Load failed',
@@ -10,8 +10,8 @@ const TOP_DEFAULT_CONFIG = {
 };
 
 const BOTTOM_DEFAULT_CONFIG = {
-  pullText: 'pull up loading',
-  triggerText: 'release update',
+  pullText: 'Pull up loading',
+  triggerText: 'Release to update',
   loadingText: 'Loading...',
   doneText: 'Load completed',
   failText: 'Load failed',
