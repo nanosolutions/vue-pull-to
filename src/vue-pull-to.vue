@@ -231,15 +231,18 @@
       },
 
       handleTouchEnd(event) {
+        console.log('touch end');
         event.stopPropagation();
         if (this.diff !== 0) {
           if (this.state === 'trigger') {
             this.actionLoading();
             return;
           }
-
+          console.log('0', this.direction);
+          if (this.direction === 'down') {
+            this.scrollTo(0);
+          }
           // pull cancel
-          this.scrollTo(0);
         }
       },
 
